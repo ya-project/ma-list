@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/actor_img"
+        android:layout_width="@dimen/actor_img_size"
+        android:layout_height="@dimen/actor_img_size"
+        android:layout_margin="@dimen/spacing_normal"/>
+
+    <TextView
+        android:id="@+id/actor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/spacing_large"
+
+        android:text="@string/default_field_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_name"
+
+        android:layout_toEndOf="@id/actor_img"
+        android:layout_toRightOf="@id/actor_img"/>
+
+    <TextView
+        android:id="@+id/actor_tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/spacing_mini"
+        android:layout_below="@id/actor_name"
+        android:layout_toEndOf="@id/actor_img"
+        android:layout_toRightOf="@id/actor_img"
+
+        android:text="@string/default_field_text"
+        android:textSize="@dimen/size_info"/>
+
+    <TextView
+        android:id="@+id/actor_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_toEndOf="@id/actor_img"
+        android:layout_toRightOf="@id/actor_img"
+
+        android:layout_below="@id/actor_tags"
+        android:layout_marginTop="@dimen/spacing_normal"
+
+        android:text="@string/default_field_text"
+        android:textSize="@dimen/size_info"/>
+</RelativeLayout>

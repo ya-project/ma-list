@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ma-list</string>
+
+    <string name="default_field_text">Default Text</string>
+    <!-- text font strings -->
+    <string name="font_normal">ff_normal</string>
+</resources>

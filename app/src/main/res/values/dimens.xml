@@ -1,0 +1,16 @@
+<resources>
+    <!-- ActorsList dimens -->
+    <dimen name="actor_img_size">96dp</dimen>
+
+    <!-- ActorsInfo dimens -->
+
+
+    <!-- Spacing dimens -->
+    <dimen name="spacing_mini">8dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+
+    <!-- Text size dimens -->
+    <dimen name="size_info">14sp</dimen>
+    <dimen name="size_name">16sp</dimen>
+</resources>
